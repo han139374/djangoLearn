@@ -1,0 +1,6 @@
+1.准备先在公司的服务器上安装uwsgi,可以正常使用的话，那就准备django搞并发了
+2.django2.2对接oracle的11c，默认的ORM有问题，在想怎么解决
+   a.重写orm，重写默认的表
+   b.默认的表建在sqlite3上，只有部分东西建在oracle上
+   c.降低django版本，django1.0支持oracle的11c
+3.   
